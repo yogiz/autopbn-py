@@ -1,0 +1,3 @@
+ini contoh konten yang akan di print
+kamu bisa menulis seberapa banyak konten
+dan konten berbentuk html juga bisa
