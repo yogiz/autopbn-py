@@ -1,7 +1,7 @@
-# autopbn Wordpress Auto Poster
+# Autopbn - Wordpress Auto Poster
 
 
-##Private Blog Network Tools For Seo Practicioner
+## Bulk PBN Domain Auto Poster with Python
 
 
 This Python program using selenium to automate new post in wordpress.
@@ -11,7 +11,7 @@ The reason i buidling this software, is to help internet marketer or SEO Special
 
 This program allow you to post in bulk domain at once.
 
-##Requirements
+## Requirements
 
 You must install all of the requirement in your computer
 
@@ -28,7 +28,7 @@ You can install selenium with this command
 
 Now you ready to run this app. But first, setup your campaign.
 
-##Configuration
+## Configuration
 
 To starts your campain you must make setup first. Follow the step below:
 
@@ -42,3 +42,8 @@ To starts your campain you must make setup first. Follow the step below:
 **Open the *connfiguration.py* file in your editor**
 
 Then setup the user and password for access wp-admin. *(All domain must have same  user and pass)*
+
+
+### result
+
+As for the result of this task, the app will report to you the list of url that he already created in `result.txt`
