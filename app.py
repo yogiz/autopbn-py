@@ -109,7 +109,7 @@ web_count = len(list_url)
 list_of_content = list_folder_content()
 
 for x in range(web_count):
-    enter_admin_page(list_url[x],def_user,def_pass)
-    write_content(list_of_content[x],type_of_content)
+    enter_admin_page(list_url[x],configuration.def_user,configuration.def_pass)
+    write_content(list_of_content[x],configuration.type_of_content)
 
 browser.close()
