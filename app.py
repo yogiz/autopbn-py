@@ -93,6 +93,10 @@ def write_content(file,type=0) :
     with open('result.txt','a') as f :
         f.write(result + '\n')
 
+    #delete content file that already use
+    os.remove('konten\\'+ file )
+
+
 
 ##############################
 # start the fun part
