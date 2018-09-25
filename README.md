@@ -13,6 +13,7 @@ This program allow you to post in bulk domain at once.
 
 ##Requirements
 
+You must install all of the requirement in your computer
 
 ### Python 3.++
 
@@ -25,23 +26,19 @@ You can install selenium with this command
 ``pip install selenium``
 
 
+Now you ready to run this app. But first, setup your campaign.
 
 ##Configuration
 
+To starts your campain you must make setup first. Follow the step below:
 
-**Domain** : List your website/ domain in file `web.txt`
+**Adding Domain and Content**
+ 
+*Domain* : List your website/ domain in file `web.txt`
 
-**Content** : Add your content in separate file in folder `/konten`
+*Content* : Add your content in separate file in folder `/konten`
 
 
-####Note
+**Open the *connfiguration.py* file in your editor**
 
-
-For content, default title will be first line in the file. 
-if you want to change title as file name. Modify the code in `app.py` at this line of codes
-
-`tulis_konten(list_konten[x])`
-
-change with adding another paramaeter with value `1`. So the code will be look like this :
-
-`tulis_konten(list_konten[x],1)`
+Then setup the user and password for access wp-admin. *(All domain must have same  user and pass)*
